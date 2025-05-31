@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background: black;
+}
+.login_container > form{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid purple;
+  margin: 100px auto;
+  width: 400px;
+  height: auto;
+  box-shadow: 2px 4px 8px rgb(255, 16, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
+.Login-1 > input{
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  box-shadow: 2px 4px 8px rgb(255, 16, 255);
+  background: none;
+  margin-bottom: 20px;
+  color: white;
+}
+.Login-1 > input::placeholder{
+  color: white;
+  padding: 5px;
+}
+.Login-1 > input:hover{
+  color: purple;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.Login-1 > input:focus{
+  border: 1px solid purple;
+  outline: none;
+}
+.Login-2 > input{
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  box-shadow: 2px 4px 8px rgb(255, 16, 255);
+  background: none;
+  color: white;
+}
+.Login-2 > input::placeholder{
+  color: white;
+  padding: 5px;
+}
+.Login-2 > input:hover{
+  color: purple;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.Login-2 > input:focus{
+  border: 1px solid purple;
+  outline: none;
+}
+.bt-1{
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid purple;
+  border-radius: 20px;
+  box-shadow: 2px 4px 8px rgb(255, 16, 255);
+  background: none;
+  color: white;
+  cursor: pointer;  
+}
+.bt-1:hover{
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.a-1{
+  margin-top: 20px;
+  padding: 10px;
+  background: none;
+  color: rgb(231, 63, 231);
+}
+.a-2{
+  margin-top: 10px;
+  padding: 10px;
+  background: none;
+  color: rgb(231, 63, 231);
+}
